@@ -1,0 +1,2 @@
+=Ruby Epic Win(dows)
+Automation library for Ruby on Windows using the Win32API library and nothing else.
