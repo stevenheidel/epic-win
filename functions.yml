@@ -1,0 +1,23 @@
+# WIN32API FUNCTIONS
+
+# Function_Name: Input Output
+# P = Pointer
+# L = Long
+# I = Integer
+# X = Nothing
+
+FindWindow: PP L
+ShowWindow: II I
+SetForegroundWindow: I L
+FindWindowEx: PPPP P
+SendMessage: IPII I
+PostMessage: IPII I
+GetWindow: II I
+GetWindowText: LPI I
+GetWindowTextLength: I I
+GetTopWindow: I I
+GetDesktopWindow: X I
+ShowOwnedPopups: II I
+AnyPopup: X I
+GetLastActivePopup: I I
+
